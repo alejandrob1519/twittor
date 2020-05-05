@@ -2,7 +2,7 @@
 importScripts ('js/sw-utils.js');
 
 //Lo 1ro que haremos en el SW, es crear las constantes
-const STATIC_CACHE    = 'static-v2';
+const STATIC_CACHE    = 'static-v3';
 const DYNAMIC_CACHE   = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
