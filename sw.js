@@ -9,7 +9,6 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 //lo 2do es crear nuestra APPSHELL
 //asegurarse que esten bien escritas, porque si una falla no se podrá instalar el appshell
 const APP_SHELL = [
-    '/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',

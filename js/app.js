@@ -1,6 +1,14 @@
 //Archivo app.js
+
+//Validamos la ruta del SW para que funcione en localhost y remoto
+var url = windows.location.href,
+    swLocation = '/twittor/sw.js'; //este path es para produccion 
+
 if(navigator.serviceWorker){
-    navigator.serviceWorker.register('sw.js');
+    
+    if(url.includes('localhost')){ swLocation = '/sw.js'; }
+
+    navigator.serviceWorker.register(swLocation);  //este path es para desarrollo
 }
 
 
